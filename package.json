@@ -1,0 +1,27 @@
+{
+  "name": "solarvision-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-powered rooftop solar potential calculator",
+  "type": "module",
+  "homepage": "https://gisdeveloper-nust.github.io/solarvision-ai",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "gh-pages": "^6.0.0"
+  }
+}
